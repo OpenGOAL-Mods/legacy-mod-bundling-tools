@@ -112,7 +112,7 @@ jobs:
       - name: "Checkout Workflow Scripts"
         uses: actions/checkout@v4
         with:
-          repository: "open-goal/mod-bundling-tools"
+          repository: "OpenGOAL-Mods/legacy-mod-bundling-tools"
           ref: ${{ github.event.inputs.ref }}
           path: "__actions/mod-bundling-tools"
 
@@ -170,7 +170,7 @@ jobs:
         if: ${{ !inputs.skipWindows }}
         uses: actions/checkout@v4
         with:
-          repository: "open-goal/mod-bundling-tools"
+          repository: "OpenGOAL-Mods/legacy-mod-bundling-tools"
           ref: ${{ github.event.inputs.ref }}
           path: "__actions/mod-bundling-tools"
 
@@ -212,7 +212,7 @@ jobs:
         if: ${{ !inputs.skipLinux }}
         uses: actions/checkout@v4
         with:
-          repository: "open-goal/mod-bundling-tools"
+          repository: "OpenGOAL-Mods/legacy-mod-bundling-tools"
           ref: ${{ github.event.inputs.ref }}
           path: "__actions/mod-bundling-tools"
 
@@ -254,7 +254,7 @@ jobs:
         if: ${{ !inputs.skipMacOS }}
         uses: actions/checkout@v4
         with:
-          repository: "open-goal/mod-bundling-tools"
+          repository: "OpenGOAL-Mods/legacy-mod-bundling-tools"
           ref: ${{ github.event.inputs.ref }}
           path: "__actions/mod-bundling-tools"
 
@@ -291,7 +291,7 @@ jobs:
       - name: "Checkout Workflow Scripts"
         uses: actions/checkout@v4
         with:
-          repository: "open-goal/mod-bundling-tools"
+          repository: "OpenGOAL-Mods/legacy-mod-bundling-tools"
           ref: ${{ github.event.inputs.ref }}
           path: "__actions/mod-bundling-tools"
 
